@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="Navisworks" Name="Section Box Align 2024-2026" AppVersion="1.2.0" ProductType="Application" Author="MMTools" ProductCode="{2CBA7651-9276-4651-B392-44E361C9FAB6}" UpgradeCode="{C50EA756-5D50-4212-A7F3-AD297C059280}">
+<Components><RuntimeRequirements OS="Win64" Platform="NAVMAN|NAVSIM" SeriesMin="Nw21" SeriesMax="Nw21"/><ComponentEntry AppName="SectionBoxAlign2024" AppType="ManagedPlugin" ModuleName="./Contents/2024/MMTools.SectionBoxAlign.dll"/></Components>
+<Components><RuntimeRequirements OS="Win64" Platform="NAVMAN|NAVSIM" SeriesMin="Nw22" SeriesMax="Nw22"/><ComponentEntry AppName="SectionBoxAlign2025" AppType="ManagedPlugin" ModuleName="./Contents/2025/MMTools.SectionBoxAlign.dll"/></Components>
+<Components><RuntimeRequirements OS="Win64" Platform="NAVMAN|NAVSIM" SeriesMin="Nw23" SeriesMax="Nw23"/><ComponentEntry AppName="SectionBoxAlign2026" AppType="ManagedPlugin" ModuleName="./Contents/2026/MMTools.SectionBoxAlign.dll"/></Components>
+</ApplicationPackage>

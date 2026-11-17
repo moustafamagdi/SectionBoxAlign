@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="Naviswork" Name="Section Box Align 2027" Description="Align an existing section box to a face or direction while preserving center and dimensions." AppVersion="1.1.0" ProductType="Application" Author="MMTools" ProductCode="{D89B9FB0-EC74-4A42-BF48-CCF2EC51BE72}" UpgradeCode="{C3FC463C-97C9-4909-BFC8-80F83F83B602}">
+ <Components>
+  <RuntimeRequirements OS="Win64" Platform="NAVMAN|NAVSIM" SeriesMin="Nw24" SeriesMax="Nw24" />
+  <ComponentEntry AppName="Section Box Align" Version="1.1.0" AppType="ManagedPlugin" ModuleName="./Contents/1.1.0/MMTools.SectionBoxAlign.dll" />
+ </Components>
+</ApplicationPackage>
+
+

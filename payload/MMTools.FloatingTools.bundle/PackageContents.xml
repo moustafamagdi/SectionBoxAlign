@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="Naviswork" Name="My Navis Tools" Description="Five separate floating panels with custom icons" AppVersion="1.1.0" ProductType="Application" Author="Moustafa Magdi" ProductCode="{A691A0E5-3F80-4A56-985A-8A126A35FBB2}" UpgradeCode="{5D73D506-62B1-482F-8C67-03B87C6564A3}">
+ <Components><RuntimeRequirements OS="Win64" Platform="NAVMAN|NAVSIM" SeriesMin="Nw24" SeriesMax="Nw24" /><ComponentEntry AppName="My Navis Tools" AppType="ManagedPlugin" ModuleName="./Contents/Align1.1.0/MMTools.FloatingTools.dll" /></Components>
+</ApplicationPackage>
+
+

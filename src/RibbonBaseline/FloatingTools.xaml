@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RibbonControl xmlns="clr-namespace:Autodesk.Windows;assembly=AdWindows" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Autodesk.Navisworks.Gui.Roamer.AIRLook;assembly=navisworks.gui.roamer">
+  <RibbonTab Id="MMTools.Floating.Tab" KeyTip="MT">
+    <RibbonPanel x:Uid="MMTools.SmartBox.Panel">
+      <RibbonPanelSource x:Uid="MMTools.SmartBox.Source" Title="Smart Section Box" KeyTip="SB">
+        <local:NWRibbonButton x:Uid="MMTools.SmartBox.Button" Id="MMTools.SmartBox" Size="Large" ShowText="True" Text="Smart Section Box" Orientation="Vertical" KeyTip="SB" />
+      </RibbonPanelSource>
+    </RibbonPanel>
+    <RibbonPanel x:Uid="MMTools.ClashAudit.Panel">
+      <RibbonPanelSource x:Uid="MMTools.ClashAudit.Source" Title="Clash Audit" KeyTip="CA">
+        <local:NWRibbonButton x:Uid="MMTools.ClashAudit.Button" Id="MMTools.ClashAudit" Size="Large" ShowText="True" Text="Clash Audit" Orientation="Vertical" KeyTip="CA" />
+      </RibbonPanelSource>
+    </RibbonPanel>
+    <RibbonPanel x:Uid="MMTools.ZoneExplorer.Panel">
+      <RibbonPanelSource x:Uid="MMTools.ZoneExplorer.Source" Title="Zone Explorer" KeyTip="ZE">
+        <local:NWRibbonButton x:Uid="MMTools.ZoneExplorer.Button" Id="MMTools.ZoneExplorer" Size="Large" ShowText="True" Text="Zone Explorer" Orientation="Vertical" KeyTip="ZE" />
+      </RibbonPanelSource>
+    </RibbonPanel>
+    <RibbonPanel x:Uid="MMTools.SectionBox.Panel">
+      <RibbonPanelSource x:Uid="MMTools.SectionBox.Source" Title="Section Box" KeyTip="BX">
+        <local:NWRibbonButton x:Uid="MMTools.SectionBox.Button" Id="MMTools.SectionBox" Size="Large" ShowText="True" Text="Section Box" Orientation="Vertical" KeyTip="BX" />
+      </RibbonPanelSource>
+    </RibbonPanel>
+    <RibbonPanel x:Uid="MMTools.SectionSave.Panel">
+      <RibbonPanelSource x:Uid="MMTools.SectionSave.Source" Title="Section + Save" KeyTip="SV">
+        <local:NWRibbonButton x:Uid="MMTools.SectionSave.Button" Id="MMTools.SectionSave" Size="Large" ShowText="True" Text="Section + Save" Orientation="Vertical" KeyTip="SV" />
+      </RibbonPanelSource>
+    </RibbonPanel>
+    <RibbonPanel x:Uid="MMTools.VerticalPipes.Panel">
+      <RibbonPanelSource x:Uid="MMTools.VerticalPipes.Source" Title="Vertical Pipes" KeyTip="VP">
+        <local:NWRibbonButton x:Uid="MMTools.VerticalPipes.Button" Id="MMTools.VerticalPipes" Size="Large" ShowText="True" Text="Vertical Pipes" Orientation="Vertical" KeyTip="VP" />
+      </RibbonPanelSource>
+    </RibbonPanel>
+  </RibbonTab>
+</RibbonControl>

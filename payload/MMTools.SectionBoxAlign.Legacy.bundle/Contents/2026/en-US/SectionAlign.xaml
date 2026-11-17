@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RibbonControl xmlns="clr-namespace:Autodesk.Windows;assembly=AdWindows" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Autodesk.Navisworks.Gui.Roamer.AIRLook;assembly=navisworks.gui.roamer">
+ <RibbonTab Id="MMTools.SectionAlign.Legacy.Tab" KeyTip="MT">
+  <RibbonPanel x:Uid="MMTools.LegacyAlign.Panel">
+   <RibbonPanelSource x:Uid="MMTools.LegacyAlign.Source" Title="Section Align" KeyTip="AL">
+    <local:NWRibbonButton x:Uid="MMTools.LegacyAlign.Face" Id="MMTools.AlignFace" Size="Large" ShowText="True" Text="Align to Face" Orientation="Vertical" KeyTip="AF" />
+    <local:NWRibbonButton x:Uid="MMTools.LegacyAlign.Dir" Id="MMTools.AlignDir" Size="Large" ShowText="True" Text="Align to Dir" Orientation="Vertical" KeyTip="AD" />
+   </RibbonPanelSource>
+  </RibbonPanel>
+ </RibbonTab>
+</RibbonControl>
